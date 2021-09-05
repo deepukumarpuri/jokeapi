@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium ="*"
+fastapi = "*"
+certifi = "*"
+chardet = "*"
+idna = "*"
+requests = "*"
+urllib3 = "*"
+
+starlette = "*"
+pydantic = "*"
+click = "*"
+h11 = "*"
+websockets = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
+
